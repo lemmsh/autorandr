@@ -1,0 +1,2 @@
+# rule to run autorandr when display is plugged in
+SUBSYSTEM=="drm", ACTION=="change", RUN+="/home/lemmsh/script/autor.sh"
